@@ -7,6 +7,7 @@ let content = document.getElementById("content")
 function home() {
     content.appendChild(header())
     content.appendChild(loadHome())
+    content.id = "content"
     content.appendChild(footer())
     buttons()
 }
@@ -14,6 +15,7 @@ function home() {
 function menu() {
     content.appendChild(header())
     content.appendChild(loadMenu())
+    content.id = "contentActive"
     content.appendChild(footer())
     buttons()
 }
@@ -21,6 +23,7 @@ function menu() {
 function contact() {
     content.appendChild(header())
     content.appendChild(loadContact())
+    content.id = "content"
     content.appendChild(footer())
     buttons()
 }

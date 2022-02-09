@@ -9,7 +9,7 @@ function loadHome() {
     img.src= "../img/home.png"
     img.alt = "pizza oven"
     mainHome.appendChild(img)
-    let history = write("History of restaurant")
+    let history = write("World's Best Pizza opened in 1902 and has been serving customers with the same amazing pizza ever since. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
     mainHome.appendChild(history)
     return mainHome
 }
@@ -51,7 +51,7 @@ function header() {
 //create footer
 function footer() {
     let footer = div("footer")
-    let pageBy = write("copyright C Julio Cardona 2022")
+    let pageBy = write("Copyright © Julio Cardona 2022")
     footer.appendChild(pageBy)
     return footer
 }
